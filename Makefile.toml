@@ -1,8 +1,10 @@
 [env]
+CARGO_MAKE_WORKSPACE_WORKING_DIRECTORY = "/Users/luke/code/github/ltfschoen/effektio"
 CARGO_MAKE_EXTEND_WORKSPACE_MAKEFILE = true
 CARGO_MAKE_WORKSPACE_INCLUDE_MEMBERS = ["native/effektio"]
 ANDROID_PLATFORM_VERSION = "28"
 TARGET_PLUGIN = "effektio_flutter_sdk"
+FLUTTER_BINARY_PATH = "/Users/luke/development/flutter/bin"
 LIB_OUT_DIR = "debug"
 TARGET_OS = "unknown"
 DEV = true
